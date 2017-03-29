@@ -8,37 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1AFC805C1C68343C00BD26FA /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC80521C68343C00BD26FA /* ActionViewController.swift */; };
-		1E7A94071E8BDD4100B0589B /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7A94001E8BD1F300B0589B /* ThreeRingControl.framework */; };
-		1E7A94081E8BDD4100B0589B /* ThreeRingControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7A94001E8BD1F300B0589B /* ThreeRingControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C8F765B1C681D8F000A64EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F765A1C681D8F000A64EB /* AppDelegate.swift */; };
 		4C8F76601C681D8F000A64EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F765E1C681D8F000A64EB /* Main.storyboard */; };
 		4C8F76621C681D8F000A64EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F76611C681D8F000A64EB /* Assets.xcassets */; };
 		4C8F76651C681D8F000A64EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F76631C681D8F000A64EB /* LaunchScreen.storyboard */; };
 		4C8F76701C681D8F000A64EB /* PhonerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F766F1C681D8F000A64EB /* PhonerciseTests.swift */; };
+		A61610122897825F6F508F3A /* Pods_Phonercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313117B4FC6EDB2F6E182104 /* Pods_Phonercise.framework */; };
+		CCF92CE28462DFA0346FC1DF /* Pods_PhonerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D132833A0ED46D462D568133 /* Pods_PhonerciseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E7A93FF1E8BD1F300B0589B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E7A93FA1E8BD1F300B0589B /* ThreeRingControl.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1E7A93D01E8BD0C200B0589B;
-			remoteInfo = ThreeRingControl;
-		};
-		1E7A94011E8BD1F300B0589B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E7A93FA1E8BD1F300B0589B /* ThreeRingControl.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1E7A93D91E8BD0C200B0589B;
-			remoteInfo = ThreeRingControlTests;
-		};
-		1E7A94091E8BDD4100B0589B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E7A93FA1E8BD1F300B0589B /* ThreeRingControl.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E7A93CF1E8BD0C200B0589B;
-			remoteInfo = ThreeRingControl;
-		};
 		4C8F766C1C681D8F000A64EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C8F764F1C681D8F000A64EB /* Project object */;
@@ -55,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1E7A94081E8BDD4100B0589B /* ThreeRingControl.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +42,8 @@
 
 /* Begin PBXFileReference section */
 		1AFC80521C68343C00BD26FA /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		1E7A93FA1E8BD1F300B0589B /* ThreeRingControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThreeRingControl.xcodeproj; path = ../ThreeRingControl/ThreeRingControl.xcodeproj; sourceTree = "<group>"; };
+		25B87820676436CB77E73AB2 /* Pods-Phonercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phonercise/Pods-Phonercise.debug.xcconfig"; sourceTree = "<group>"; };
+		313117B4FC6EDB2F6E182104 /* Pods_Phonercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phonercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8F76571C681D8F000A64EB /* Phonercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8F765A1C681D8F000A64EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8F765F1C681D8F000A64EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +53,10 @@
 		4C8F766B1C681D8F000A64EB /* PhonerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8F766F1C681D8F000A64EB /* PhonerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonerciseTests.swift; sourceTree = "<group>"; };
 		4C8F76711C681D8F000A64EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809E2F80AB0C598BA5238700 /* Pods-PhonerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhonerciseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhonerciseTests/Pods-PhonerciseTests.release.xcconfig"; sourceTree = "<group>"; };
+		A430396E32CA1C7BEABA01A4 /* Pods-PhonerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhonerciseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhonerciseTests/Pods-PhonerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE0D67B2237ACAF0059ABA3 /* Pods-Phonercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phonercise/Pods-Phonercise.release.xcconfig"; sourceTree = "<group>"; };
+		D132833A0ED46D462D568133 /* Pods_PhonerciseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhonerciseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E7A94071E8BDD4100B0589B /* ThreeRingControl.framework in Frameworks */,
+				A61610122897825F6F508F3A /* Pods_Phonercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +72,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF92CE28462DFA0346FC1DF /* Pods_PhonerciseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B572D0B84A6123214F4F759 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B87820676436CB77E73AB2 /* Pods-Phonercise.debug.xcconfig */,
+				CEE0D67B2237ACAF0059ABA3 /* Pods-Phonercise.release.xcconfig */,
+				A430396E32CA1C7BEABA01A4 /* Pods-PhonerciseTests.debug.xcconfig */,
+				809E2F80AB0C598BA5238700 /* Pods-PhonerciseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1AFC80661C68347E00BD26FA /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,22 +100,23 @@
 			name = "Helper Files";
 			sourceTree = "<group>";
 		};
-		1E7A93FB1E8BD1F300B0589B /* Products */ = {
+		43434B95320CFFECA5FA39F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E7A94001E8BD1F300B0589B /* ThreeRingControl.framework */,
-				1E7A94021E8BD1F300B0589B /* ThreeRingControlTests.xctest */,
+				313117B4FC6EDB2F6E182104 /* Pods_Phonercise.framework */,
+				D132833A0ED46D462D568133 /* Pods_PhonerciseTests.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4C8F764E1C681D8F000A64EB = {
 			isa = PBXGroup;
 			children = (
-				1E7A93FA1E8BD1F300B0589B /* ThreeRingControl.xcodeproj */,
 				4C8F76591C681D8F000A64EB /* Phonercise */,
 				4C8F766E1C681D8F000A64EB /* PhonerciseTests */,
 				4C8F76581C681D8F000A64EB /* Products */,
+				0B572D0B84A6123214F4F759 /* Pods */,
+				43434B95320CFFECA5FA39F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,15 +156,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8F76741C681D8F000A64EB /* Build configuration list for PBXNativeTarget "Phonercise" */;
 			buildPhases = (
+				D0BC4D1347E782A42C399EC2 /* [CP] Check Pods Manifest.lock */,
 				4C8F76531C681D8F000A64EB /* Sources */,
 				4C8F76541C681D8F000A64EB /* Frameworks */,
 				4C8F76551C681D8F000A64EB /* Resources */,
 				1E7A940B1E8BDD4100B0589B /* Embed Frameworks */,
+				F2847E80BC19A1EBF2F4E1A3 /* [CP] Embed Pods Frameworks */,
+				CF4E62DE0BA9EB9FBB143960 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E7A940A1E8BDD4100B0589B /* PBXTargetDependency */,
 			);
 			name = Phonercise;
 			productName = Phonercise;
@@ -179,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8F76771C681D8F000A64EB /* Build configuration list for PBXNativeTarget "PhonerciseTests" */;
 			buildPhases = (
+				9627163D60DF4AEA2193ABEE /* [CP] Check Pods Manifest.lock */,
 				4C8F76671C681D8F000A64EB /* Sources */,
 				4C8F76681C681D8F000A64EB /* Frameworks */,
 				4C8F76691C681D8F000A64EB /* Resources */,
+				E858451AF5DE6C3A3839DFC6 /* [CP] Embed Pods Frameworks */,
+				123D669579E2932A131085BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,12 +228,6 @@
 			mainGroup = 4C8F764E1C681D8F000A64EB;
 			productRefGroup = 4C8F76581C681D8F000A64EB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1E7A93FB1E8BD1F300B0589B /* Products */;
-					ProjectRef = 1E7A93FA1E8BD1F300B0589B /* ThreeRingControl.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				4C8F76561C681D8F000A64EB /* Phonercise */,
@@ -240,23 +235,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		1E7A94001E8BD1F300B0589B /* ThreeRingControl.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ThreeRingControl.framework;
-			remoteRef = 1E7A93FF1E8BD1F300B0589B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1E7A94021E8BD1F300B0589B /* ThreeRingControlTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ThreeRingControlTests.xctest;
-			remoteRef = 1E7A94011E8BD1F300B0589B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4C8F76551C681D8F000A64EB /* Resources */ = {
@@ -277,6 +255,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123D669579E2932A131085BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhonerciseTests/Pods-PhonerciseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9627163D60DF4AEA2193ABEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4E62DE0BA9EB9FBB143960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phonercise/Pods-Phonercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0BC4D1347E782A42C399EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E858451AF5DE6C3A3839DFC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhonerciseTests/Pods-PhonerciseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2847E80BC19A1EBF2F4E1A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phonercise/Pods-Phonercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C8F76531C681D8F000A64EB /* Sources */ = {
@@ -299,11 +370,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E7A940A1E8BDD4100B0589B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ThreeRingControl;
-			targetProxy = 1E7A94091E8BDD4100B0589B /* PBXContainerItemProxy */;
-		};
 		4C8F766D1C681D8F000A64EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4C8F76561C681D8F000A64EB /* Phonercise */;
@@ -421,6 +487,7 @@
 		};
 		4C8F76751C681D8F000A64EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B87820676436CB77E73AB2 /* Pods-Phonercise.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -437,6 +504,7 @@
 		};
 		4C8F76761C681D8F000A64EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE0D67B2237ACAF0059ABA3 /* Pods-Phonercise.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -453,6 +521,7 @@
 		};
 		4C8F76781C681D8F000A64EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A430396E32CA1C7BEABA01A4 /* Pods-PhonerciseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YHZR6HQS42;
@@ -467,6 +536,7 @@
 		};
 		4C8F76791C681D8F000A64EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809E2F80AB0C598BA5238700 /* Pods-PhonerciseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YHZR6HQS42;

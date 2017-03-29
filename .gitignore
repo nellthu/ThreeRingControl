@@ -11,7 +11,8 @@ xcuserdata/
 *.xcworkspace
 
 # Pod
-*.lock
+Pods/
+
 
 # build products
 *.build/
